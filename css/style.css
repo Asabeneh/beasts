@@ -8,7 +8,7 @@
 .header {
   width: 100%;
   height: 100px;
-  background-image: url(/assets/images/);
+  background-image: url(/assets/images/dog.jpeg);
   background-size: cover;
 }
 .navbar {
@@ -28,8 +28,8 @@
   cursor: pointer;
 }
 
-.navbar ul li:hover{
-background:orange,
+.navbar ul li:hover {
+  background: orange;
 }
 
 /* ===MAIN=== */
