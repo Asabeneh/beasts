@@ -1,5 +1,2 @@
-# Beasts
-
-Johanna, Dean, Masood and Evans 
-have a layout to repicate using html, css & body 
-          https://www.humanesociety.org/animal-rescue
+Task is to repicate this layout using html, css & body 
+https://www.humanesociety.org/animal-rescue

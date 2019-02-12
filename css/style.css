@@ -1,5 +1,57 @@
 /* ===GENERAL=== */
+* { 
+    vertical-align: baseline; /* for Images */ 
+    box-sizing: border-box;
+    font-size: 100%;
+    line-height: 1; /* space between text-lines */
+    font: inherit; /* text inherit from parent, */
+    padding: 0; 
+    margin: 0;
+}
+
+*:before, *:after { box-sizing: inherit; }
+
+html, body {  
+        
+    height: 100vh;
+    width: 100vw;
+}
+
 /* ===HEADER=== */
+
 /* ===MAIN=== */
 
 /* ===FOOTER=== */
+footer { 
+    width: 100vw;
+    height: auto ; 
+}
+
+section.footer-top { 
+    width: 100%;
+    height: auto ; 
+    margin: 0 auto;
+    padding: 0rem 5rem; 
+    background: rgba(238,238,238,1);
+}
+
+section.footer-bottom { 
+    width: 100%;
+    height: auto ; 
+    margin: 0 auto;
+    padding: 0rem 5rem; 
+    background: rgba(255,255,255,1);
+}
+
+section.f-box { 
+    width: 90%;
+    height: auto ;
+    margin: 0 auto ; 
+    padding: 2rem 0rem;
+    
+}
+
+
+
+
+    
