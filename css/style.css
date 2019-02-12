@@ -47,10 +47,13 @@ body {
   z-index: 1;
   position: relative;
   display: flex;
-  align-items: center;
+
+  /*align-items: center;*/
+  margin-left: 6%;
+  margin-right: 6%;
 }
 .text-box1 p {
-  width: 100%;
+  align-self: center;
 }
 .text-box1-link {
   color: white;
@@ -60,15 +63,14 @@ body {
 }
 
 .how-you-can-help {
+  max-width: 1100px;
   display: flex;
   justify-content: center;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 3% auto;
   background-color: white;
 }
 .happy-dog {
-  width: 55%;
-  margin: 3% 0 3% 0;
+  width: 70%;
 }
 #happydog-img {
   width: 100%;
