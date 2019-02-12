@@ -19,11 +19,8 @@ body {
 /* ===MAIN=== */
 .fox-image {
   background-size: cover;
-  width: 100%;
   height: 700px;
   position: relative;
-  display: flex;
-  justify-content: center;
   background-image: url("../assets/image/fox.jpeg");
 }
 .fox-image:after {
@@ -47,6 +44,9 @@ body {
   z-index: 1;
   position: relative;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 
   /*align-items: center;*/
   margin-left: 6%;
@@ -213,16 +213,20 @@ hr {
   margin-top: 50px;
 }
 
-/* NEWS ========================================== */
+/* ARTICLE ========================================== */
+
+article {
+  margin-bottom: 30px;
+}
 
 .news__container {
   color: white;
   text-align: center;
   position: relative;
   background: black;
-  height: 290px;
-  padding: 30px 0;
+  padding: 3% 0;
   clear: both;
+  height: 290px;
 }
 
 .news__container::before {
@@ -232,7 +236,6 @@ hr {
   background-size: cover;
   display: inline-block;
   max-width: 30rem;
-  max-height: 20rem;
   min-width: 12rem;
   min-height: 12rem;
   position: absolute;
@@ -242,15 +245,16 @@ hr {
   width: 40%;
 }
 
-.news__container::after {
+/* .news__container::after {
   content: "";
     display: table;
     clear: both;
-}
+} */
 
 .news__information {
   float: right;
-  margin: 0 10% 0 3%;
+  margin-right: 9%;
+  height: 290px;
 }
 
 .news__title {
@@ -286,3 +290,35 @@ hr {
 }
 
 /* ===FOOTER=== */
+
+
+/* MEDIA QUERY ======================== */
+
+@media screen and (max-width: 1050px) {
+  .news__information {
+    margin-right: 7%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .news__information {
+    margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .news__information {
+    margin-right: 2%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news__container::before {
+    display: none;
+  }
+
+  .news__information {
+    width: 100%;
+    margin: auto;
+  }
+}
