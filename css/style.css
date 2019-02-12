@@ -213,26 +213,42 @@ hr {
 
 /* NEWS ========================================== */
 
-.news__information {
+.news__container {
   color: white;
   text-align: center;
   position: relative;
   background: black;
   height: 290px;
   padding: 30px 0;
+  clear: both;
 }
 
-.news__information::before {
+.news__container::before {
   content: "";
   background-image: url(../assets/image/coyote.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   display: inline-block;
-  width: 350px;
-  height: 250px;
+  max-width: 30rem;
+  max-height: 20rem;
+  min-width: 12rem;
+  min-height: 12rem;
   position: absolute;
   left: 0;
   top: 0;
+  padding-top: 8.9%;
+  width: 40%;
+}
+
+.news__container::after {
+  content: "";
+    display: table;
+    clear: both;
+}
+
+.news__information {
+  float: right;
+  margin: 0 10% 0 3%;
 }
 
 .news__title {
