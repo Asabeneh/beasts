@@ -1,5 +1,80 @@
 /* ===GENERAL=== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* ===HEADER=== */
 /* ===MAIN=== */
+.fox-image {
+  background: url("../assets/fox.jpeg");
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.fox-image:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.text-box1 {
+  font-family: "freight-sans-pro", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24pt;
+  margin-bottom: 1rem;
+  color: white;
+  height: 700px;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.text-box1 p {
+  width: 100%;
+}
+.text-box1-link {
+  color: white;
+  text-decoration: none;
+  font-family: "freight-sans-pro", sans-serif;
+  font-size: 14pt;
+}
+
+.how-you-can-help {
+  display: flex;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: white;
+}
+.happy-dog {
+  width: 55%;
+  margin: 3% 0 3% 0;
+}
+#happydog-img {
+  width: 100%;
+}
+.text-box2 {
+  width: 30%;
+  font-size: 20pt;
+  line-height: 1.2;
+  font-family: "freight-sans-pro", sans-serif;
+  align-self: center;
+  margin-left: 2%;
+}
+.text-box2-link {
+  color: #243e86;
+  text-decoration: none;
+  background-color: #dfc5de;
+  font-size: 14pt;
+}
 
 /* ===FOOTER=== */
