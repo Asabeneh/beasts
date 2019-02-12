@@ -1,5 +1,4 @@
 /* ===GENERAL=== */
-<<<<<<< HEAD
 * { 
     vertical-align: baseline; /* for Images */ 
     box-sizing: border-box;
@@ -16,21 +15,6 @@ html, body {
         
     height: 100vh;
     width: 100vw;
-=======
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-size: 18px;
-}
-
-.container {
-  max-width: 1100px;
-  margin: auto;
->>>>>>> f40658887757976b2bac22b5c1bf2bf7387c2940
 }
 
 /* ===HEADER=== */
@@ -343,37 +327,4 @@ article {
     display: none;
   }
 
-/* ===FOOTER=== */
-footer { 
-    width: 100vw;
-    height: auto ; 
-}
-
-section.footer-top { 
-    width: 100%;
-    height: auto ; 
-    margin: 0 auto;
-    padding: 0rem 5rem; 
-    background: rgba(238,238,238,1);
-}
-
-section.footer-bottom { 
-    width: 100%;
-    height: auto ; 
-    margin: 0 auto;
-    padding: 0rem 5rem; 
-    background: rgba(255,255,255,1);
-}
-
-section.f-box { 
-    width: 90%;
-    height: auto ;
-    margin: 0 auto ; 
-    padding: 2rem 0rem;
-    
-}
-
-
-
-
-    
+  /* ===========FOOTER =>>  footer.css ================ */
