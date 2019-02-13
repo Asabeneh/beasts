@@ -13,6 +13,7 @@ body {
   max-width: 1100px;
   margin: auto;
 }
+
 /* ===HEADER=== */
 
 /* ===MAIN=== */
@@ -41,7 +42,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 24pt;
-  line-height: 1.6;
+  margin-bottom: 1rem;
   color: white;
   padding: 300px 0;
   z-index: 1;
@@ -50,7 +51,14 @@ body {
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  width: 100%;
+  text-align: center;
+
+  /*align-items: center;*/
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.text-box1 p {
+  align-self: center;
 }
 
 .text-box1-link {
@@ -62,6 +70,8 @@ body {
 
 .text-box1-link:hover {
   color: #009ed0;
+  font-family: "freight-sans-pro", sans-serif;
+  font-size: 14pt;
 }
 
 .text-box1-link .fa-arrow-right {
@@ -86,7 +96,6 @@ body {
 .text-box2 {
   width: 30%;
   font-size: 20pt;
-  color: #283941;
   line-height: 1.2;
   font-family: "freight-sans-pro", sans-serif;
   align-self: center;
@@ -96,6 +105,7 @@ body {
 .text-box2-link {
   color: #243e86;
   text-decoration: none;
+  background-color: #dfc5de;
   font-size: 14pt;
 }
 
