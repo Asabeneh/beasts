@@ -13,7 +13,6 @@ body {
   max-width: 1100px;
   margin: auto;
 }
-
 /* ===HEADER=== */
 
 /* ===MAIN=== */
@@ -38,7 +37,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 24pt;
-  margin-bottom: 1rem;
+  line-height: 1.6;
   color: white;
   height: 700px;
   z-index: 1;
@@ -48,28 +47,19 @@ body {
   text-align: center;
   justify-content: center;
   text-align: center;
-
-  /*align-items: center;*/
-  margin-left: 6%;
-  margin-right: 6%;
-}
-.text-box1 p {
-  align-self: center;
 }
 .text-box1-link {
   color: white;
   text-decoration: none;
-  font-family: "freight-sans-pro", sans-serif;
-  font-size: 14pt;
+  font-size: 13pt;
+  letter-spacing: 1.5px;
+}
+.text-box1-link:hover {
+  color: #009ed0;
 }
 .text-box1-link .fa-arrow-right {
   color: #009ed0;
 }
-
-.text-box1-link:hover {
-  color: 2px solid #009ed0;
-}
-
 .how-you-can-help {
   max-width: 1100px;
   display: flex;
@@ -86,6 +76,7 @@ body {
 .text-box2 {
   width: 30%;
   font-size: 20pt;
+  color: #283941;
   line-height: 1.2;
   font-family: "freight-sans-pro", sans-serif;
   align-self: center;
@@ -94,10 +85,112 @@ body {
 .text-box2-link {
   color: #243e86;
   text-decoration: none;
-  background-color: #dfc5de;
   font-size: 14pt;
 }
-
+.text-box2-link:hover {
+  color: #009ed0;
+}
+.text-box2-link .fa-arrow-right {
+  color: #009ed0;
+}
+.kitty-and-puppy {
+  display: flex;
+  height: 520px;
+  position: relative;
+}
+.kitty-and-puppy:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.kitty {
+  width: 50%;
+  background-size: cover;
+  background-image: url(../assets/image/kitty.jpg);
+}
+.puppy {
+  width: 50%;
+  background-size: cover;
+  background-image: url(../assets/image/puppyincage.jpg);
+}
+.text-box-kitty {
+  font-family: "freight-sans-pro", sans-serif;
+  font-style: normal;
+  font-size: 19pt;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  color: white;
+  height: 520px;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 16%;
+  margin-left: 16%;
+}
+.text-box-kitty p {
+  margin: 8% 0 8% 0;
+}
+.text-box-puppy {
+  font-family: "freight-sans-pro", sans-serif;
+  font-style: normal;
+  font-size: 19pt;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  color: white;
+  height: 520px;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 16%;
+  margin-left: 16%;
+}
+.text-box-puppy p {
+  margin: 8% 0 8% 0;
+}
+.kitty-button a {
+  color: white;
+  font-size: 13pt;
+  letter-spacing: 1.5px;
+  font-weight: 550;
+  text-decoration: none;
+  padding: 17px 35px;
+  border-radius: 3px;
+  background-color: #009ed0;
+}
+.kitty-button a:hover {
+  background-color: #078ebb;
+}
+.puppy-button a {
+  color: white;
+  font-size: 13pt;
+  letter-spacing: 1.5px;
+  font-weight: 550;
+  text-decoration: none;
+  padding: 17px 35px;
+  border-radius: 3px;
+  background-color: #d83c2d;
+}
+.puppy-button a:hover {
+  background-color: #c83021;
+}
+h3 {
+  color: #d7ae18;
+  font-size: 15pt;
+  letter-spacing: 4px;
+}
 /* DEAN ========================================== */
 
 hr {
