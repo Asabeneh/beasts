@@ -17,6 +17,9 @@ html,body {
     --blue-text: #243e86;
     --blue-text-hover: rgba(0,160, 203,1 );
 }
+
+
+/* form */
 section.left-box { 
     padding: 0.001%;
     width: 40%;
@@ -26,7 +29,7 @@ section.left-box {
 
 
 
-h2 { 
+h2.blue-text { 
     display:inline-block;
     font-weight: bolder;
     color: var(--blue-text);
@@ -59,10 +62,10 @@ form input {
     width: 100%;
 }
 form input[type="submit"] { 
-    content: '';
-    font-weight: 600;
+    padding: 0% 4%;
     color: white;
     text-align: left;
+    font-weight: 600;
     font-size: 0.8rem;
     margin-top: .5rem;
     letter-spacing: .12ex;
@@ -99,7 +102,7 @@ p.warning { 
     font-size:.7rem;
     
 }
-/* footer>> leftNAV*/
+/* footer>> leftNAVs*/
 section.right-box { 
     content: '';
     width: 60%;
@@ -117,7 +120,7 @@ nav.item {
     padding: 1rem;
     display: inline-block;
     list-style: none;
-    /*border: 1px dashed var(--blue-text);*/
+    border: 1px dashed var(--blue-text);
 }
 
 nav.item-1 li a { 
@@ -132,13 +135,12 @@ nav.item h2 {
     font-size: 0.7rem;
     font-family: var(--freight-font);
     color: var(--blue-text);
-    text-align:left;
+    
 }
 
 nav.item li  { 
-    text-align:left;
     padding: 0.00001%;
-    font-weight: 800;
+    font-weight: 600;
     text-decoration: none;
     color: var(--blue-text);
     font-size: 0.9rem;
@@ -148,8 +150,7 @@ nav.item li  { 
 nav.item-2 li a ,
 nav.item-3 li a , 
 nav.item-4 li a  { 
-    text-align:left;
-    /*padding: 0.00001%;*/
+    padding: 0.00001%;
     font-weight: 100;
     font-size: 0.7rem;
     text-decoration: none;
@@ -157,3 +158,77 @@ nav.item-4 li a  { 
     font-family: var(--freight-font);
 }
 
+/* Bottom Footer */
+
+/* icon box */
+
+ul { 
+    display: flex;
+    flex-direction: row;
+}
+li { 
+    padding: 0.0001%;
+    margin: 0rem 1rem 0rem 0rem; 
+    list-style: none;
+}
+
+a.facebook { 
+    padding: 0.001%;
+    width: 1.75rem;
+    background: transparent url('./assets/image/facebook.png' ) no-repeat top left;
+    height: 1.75rem;
+    background-size: 1.75rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.twitter { 
+    padding: 0.001%;
+    width: 1.75rem;
+    background: transparent url('./assets/image/twitter.png' ) no-repeat top left;
+    height: 1.75rem;
+    display: inline-block;
+    background-size: 1.75rem;
+    text-decoration: none;
+}
+a.instagram { 
+    padding: 0.001%;
+    width: 1.75rem;
+    background: transparent url('./assets/image/instagram.png' ) no-repeat top left;
+    height: 1.75rem;
+    display: inline-block;
+    background-size: 1.75rem;
+    text-decoration: none;
+}
+a.youtube { 
+    padding: 0.001%;
+    width: 1.75rem;
+    background: transparent url('./assets/image/youtube.png' ) no-repeat top left;
+    height: 1.75rem;
+    background-size: 1.75rem;
+    background-position: center;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+
+a.snapchat { 
+    padding: 0.0001% ;
+    width: 1.75rem;
+    background: transparent url('./assets/image/snapchat.svg' ) no-repeat top left;
+    height: 1.75rem;
+    display: inline-block;
+    background-size: 1.75rem;
+    text-decoration: none;
+}
+
+section.right-bottom-box > section.end-box > p { 
+    padding: 1% 1%;
+    font-family: "freight-sans-pro",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: .55rem;
+    line-height: 1.5;
+    margin: .5rem 0;
+}
