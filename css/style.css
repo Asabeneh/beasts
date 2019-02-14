@@ -41,6 +41,7 @@ body {
 
 .text-box1 {
   font-style: normal;
+  font-weight: 500;
   font-size: 24pt;
   margin-bottom: 1rem;
   color: white;
@@ -57,7 +58,6 @@ body {
   margin-left: 6%;
   margin-right: 6%;
 }
-
 .text-box1 p {
   align-self: center;
 }
@@ -96,22 +96,17 @@ body {
 
 .text-box2 {
   width: 30%;
-<<<<<<< HEAD
-  font-size: 26px;
-  color: #283941;
-=======
   font-size: 20pt;
->>>>>>> develop
   line-height: 1.2;
   align-self: center;
   margin-left: 4%;
-  padding-top: 3%;
 }
 
 .text-box2-link {
   color: #243e86;
   text-decoration: none;
-  font-size: 18px;
+  background-color: #dfc5de;
+  font-size: 14pt;
 }
 
 .text-box2-link:hover {
@@ -121,11 +116,9 @@ body {
 .text-box2-link .fa-arrow-right {
   color: #009ed0;
 }
-
 .box2-link {
   margin: 4% 0;
 }
-
 .kitty-and-puppy {
   display: flex;
   flex-wrap: wrap;
@@ -200,7 +193,7 @@ body {
 
 .kitty-button a {
   color: white;
-  font-size: 17px;
+  font-size: 13pt;
   letter-spacing: 1.5px;
   font-weight: 550;
   text-decoration: none;
@@ -215,7 +208,7 @@ body {
 
 .puppy-button a {
   color: white;
-  font-size: 17px;
+  font-size: 13px;
   letter-spacing: 1.5px;
   text-decoration: none;
   padding: 17px 35px;
@@ -251,15 +244,15 @@ hr {
 
 .changes {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .change {
-  flex: 28%;
-  width: 210px;
+  flex: 29%;
+  max-width: 339px;
   border: 1px solid lightgrey;
-  margin-right: 5vw;
+  margin-right: 6.5%;
 }
 
 .change:last-child {
@@ -270,24 +263,16 @@ hr {
   border-bottom: 2px solid #009ed0;
 }
 
-.change:hover #change__btn .fa-arrow-right {
+.change:hover .fa-arrow-right {
   color: #009ed0;
 }
 
-.change .change__top,
-.change .change__body,
-.change .change__body__content,
-.change .change__body .change__bottom {
-  width: 100%;
-  height: auto;
-  border: none;
-}
-
 .change .change__top img {
-  width: 100%;
+  max-width: 100%;
+  min-height: 250px;
 }
 
-.change .change__body .change__body__content a {
+.change__body a {
   text-decoration: none;
   color: black;
   line-height: 22px;
@@ -296,38 +281,20 @@ hr {
 .change .change__body {
   margin: 10px 0;
   padding: 0 15px;
+  min-height: 90px;
   text-align: center;
   font-weight: 500;
   line-height: 22px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.change__body .change__body__content {
-  margin: 0;
-  flex: 1;
-  height: 100px;
 }
 
 .change .change__bottom {
   color: #243e86;
-  margin-top: 15px;
-  display: flex;
-  justify-content: space-between;
-  text-align: left;
+  padding: 0 15px;
 }
 
-#change__btn {
-  flex: 1;
-  border: none;
-  margin-top: 20px;
-}
-
-#change__btn .fa-arrow-right {
+.change .fa-arrow-right {
   float: right;
   color: lightgrey;
-  font-size: 20px;
   margin-right: 10px;
   margin-bottom: 10px;
 }
@@ -413,14 +380,13 @@ article {
   background-size: cover;
   display: inline-block;
   max-width: 30rem;
-  min-width: 24rem;
+  min-width: 12rem;
+  min-height: 12rem;
   position: absolute;
   left: 0;
   top: 0;
-  right: 0;
-  bottom: 0;
   padding-top: 8.9%;
-  width: 35%;
+  width: 40%;
 }
 
 /* .news__container::after {
@@ -475,23 +441,17 @@ article {
   .how-you-can-help {
     margin: 5%;
   }
-
-  .container {
-    margin: 0 5%;
-  }
 }
-
 @media screen and (max-width: 1050px) {
   .text-box1 {
     padding: 150px 0;
   }
-
   .text-box1 p {
     margin: 0 5%;
   }
 
   .news__information {
-    margin-right: 5%;
+    margin-right: 7%;
   }
 
   .text-wrapper {
@@ -511,31 +471,15 @@ article {
   .text-box-kitty {
     margin-top: 0;
   }
-
   .text-box-puppy {
     margin-top: 0;
   }
-
   .news__information {
-    margin-right: -40px;
+    margin-right: 5%;
   }
-
-  .news__body {
-    font-size: 22px;
-    width: 70%;
-  }
-
   .puppy {
     background-position: center;
     background-size: cover;
-  }
-
-  .change .change__top img {
-    max-width: 100%;
-  }
-
-  .change__body .change__body__content {
-    height: 120px;
   }
 }
 
@@ -543,21 +487,18 @@ article {
   .how-you-can-help {
     margin-top: 3%;
   }
-
   .text-box1 {
     padding: 80px 0;
   }
-
   .how-you-can-help {
     margin: 45px;
   }
-
   .text-box2 {
     margin: 0 3%;
   }
 
   .news__information {
-    margin-right: -50px;
+    margin-right: 2%;
   }
 
   .gift:after {
@@ -566,10 +507,6 @@ article {
 
   .text-wrapper {
     padding: 100px 20px;
-  }
-
-  .change__body .change__body__content {
-    height: 140px;
   }
 }
 
@@ -612,69 +549,21 @@ article {
   .text-wrapper {
     width: 100%;
   }
-
-  .change__body .change__body__content {
-    height: 90px;
-  }
-
-  .change__body .change__body__content:last-child {
-    height: 30px;
-  }
-
-  .change {
-    flex: 40%;
-  }
-
-  .change:nth-child(2) {
-    margin-right: 0;
-  }
-
-  .change:last-child {
-    margin-top: 5vw;
-  }
-
-  .change__body .change__body__content {
-    height: 100px;
-  }
-
-  .change__body .change__item3 {
-    height: 20px;
-  }
-
-  .change__special {
-    max-width: 350px;
-    min-width: 200px;
-  }
 }
-
 @media screen and (max-width: 600px) {
   .how-you-can-help {
     flex-wrap: wrap;
   }
-
   .happy-dog {
     width: 100%;
   }
-
   .text-box2 {
     width: 100%;
-    margin-left: 0;
-  }
-
-  .news__body {
-    width: 90%;
-  }
-
-  .change__body .change__body__content {
-    height: 120px;
-  }
-
-  .change__body .change__item3 {
-    height: 30px;
+    margin: 2% 0;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 450px) {
   .happy-dog {
     width: 100%;
   }
@@ -720,30 +609,5 @@ article {
 
   .gift__title {
     font-size: 35px;
-  }
-
-  .change {
-    flex: 100%;
-    margin: 0 0 30px 0;
-  }
-
-  .change:last-child {
-    margin: 0;
-  }
-
-  .change .change__top {
-    margin-bottom: 10px;
-  }
-
-  .change__body .change__body__content {
-    height: 80px;
-  }
-
-  .change__body .change__item2 {
-    height: 60px;
-  }
-
-  .change__body .change__item3 {
-    height: 20px;
   }
 }
