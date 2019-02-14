@@ -120,7 +120,7 @@ nav.item {
     padding: 1rem;
     display: inline-block;
     list-style: none;
-    border: 1px dashed var(--blue-text);
+    /*border: 1px dashed var(--blue-text);*/
 }
 
 nav.item-1 li a { 
@@ -135,6 +135,7 @@ nav.item h2 {
     font-size: 0.7rem;
     font-family: var(--freight-font);
     color: var(--blue-text);
+    font-weight: 900;
     
 }
 
@@ -162,9 +163,19 @@ nav.item-4 li a  { 
 
 /* icon box */
 
+section.left-bottom-box { 
+    padding: 0.001%;
+    width: 40%;
+    border: 1px dashed blue;
+}
+
 ul { 
+    padding: 0.001%;
     display: flex;
     flex-direction: row;
+    /*justify-content: center;*/
+    border: 1px dashed blue;
+    width: 100%;
 }
 li { 
     padding: 0.0001%;
@@ -172,63 +183,102 @@ li { 
     list-style: none;
 }
 
-a.facebook { 
-    padding: 0.001%;
-    width: 1.75rem;
-    background: transparent url('./assets/image/facebook.png' ) no-repeat top left;
-    height: 1.75rem;
-    background-size: 1.75rem;
-    text-decoration: none;
-    display: inline-block;
+section.left-bottom-box > section.icon-box  > ul > li { 
+    display: flex; 
+    align-items: center;
+    vertical-align:center; 
+    padding: 1% 0%;
 }
 
-a.twitter { 
-    padding: 0.001%;
-    width: 1.75rem;
-    background: transparent url('./assets/image/twitter.png' ) no-repeat top left;
-    height: 1.75rem;
-    display: inline-block;
-    background-size: 1.75rem;
-    text-decoration: none;
+section.left-bottom-box > section.icon-box > ul li a { 
+    display: flex; 
+    align-items: center;
+    vertical-align:center; 
+    /*background: black;*/
+    /*padding: 0.001%;*/
+    
 }
-a.instagram { 
-    padding: 0.001%;
-    width: 1.75rem;
-    background: transparent url('./assets/image/instagram.png' ) no-repeat top left;
-    height: 1.75rem;
-    display: inline-block;
-    background-size: 1.75rem;
-    text-decoration: none;
-}
-a.youtube { 
-    padding: 0.001%;
-    width: 1.75rem;
-    background: transparent url('./assets/image/youtube.png' ) no-repeat top left;
-    height: 1.75rem;
+
+
+a.facebook { 
+    content: '' ;
+    background: transparent url('../assets/image/facebook.png' ) no-repeat top left;
     background-size: 1.75rem;
     background-position: center;
-    display: inline-block;
-    vertical-align: middle;
+    background-size: cover;
+    width: 1.75rem;
+    height: 1.75rem;
     text-decoration: none;
+    display: inline-block;
 }
 
 
-a.snapchat { 
-    padding: 0.0001% ;
-    width: 1.75rem;
-    background: transparent url('./assets/image/snapchat.svg' ) no-repeat top left;
-    height: 1.75rem;
-    display: inline-block;
+a.twitter { 
+    content: '' ;
+    background: transparent url('../assets/image/twitter.png' ) no-repeat top left;
     background-size: 1.75rem;
+    background-position: center;
+    background-size: cover;
+    width: 1.75rem;
+    height: 1.75rem;
     text-decoration: none;
+    display: inline-block;
+}
+
+a.instagram { 
+    content: '' ;
+    background: transparent url('../assets/image/instagram.png' ) no-repeat top left;
+    background-size: 1.75rem;
+    background-position: center;
+    background-size: cover;
+    width: 1.75rem;
+    height: 1.75rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.youtube { 
+    content: '' ;
+    background: transparent url('../assets/image/youtube.png' ) no-repeat top left;
+    background-size: 1.75rem;
+    background-position: center;
+    background-size: cover;
+    width: 1.95rem;
+    height: 1.35rem;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align:center;
+   
+}
+
+a.snapchat { 
+    content: '' ;
+    background: transparent url('../assets/image/snapchat.svg' ) no-repeat top left;
+    background-size: 1.75rem;
+    background-position: center;
+    background-size: cover;
+    width: 1.75rem;
+    height: 1.75rem;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align:center;
+   
 }
 
 section.right-bottom-box > section.end-box > p { 
-    padding: 1% 1%;
+    margin: .5rem 0;
     font-family: "freight-sans-pro",sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: .55rem;
+    font-size: .45rem;
     line-height: 1.5;
-    margin: .5rem 0;
+    font-weight: 500;
+}
+
+/* footer END terms&conditions */   
+section.right-bottom-box { 
+
+    border: 1px dashed black;  
+    display: inline-block;
+    width: 60%;  
+
 }
