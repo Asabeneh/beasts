@@ -4,7 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
 body {
   font-size: 18px;
 }
@@ -37,7 +39,6 @@ body {
 }
 
 .text-box1 {
-  font-family: "freight-sans-pro", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24pt;
@@ -88,7 +89,6 @@ body {
   font-size: 20pt;
   color: #283941;
   line-height: 1.2;
-  font-family: "freight-sans-pro", sans-serif;
   align-self: center;
   margin-left: 4%;
 }
@@ -142,7 +142,6 @@ body {
 }
 
 .text-box-kitty {
-  font-family: "freight-sans-pro", sans-serif;
   font-style: normal;
   font-size: 19pt;
   line-height: 1.5;
@@ -163,7 +162,6 @@ body {
 }
 
 .text-box-puppy {
-  font-family: "freight-sans-pro", sans-serif;
   font-style: normal;
   font-size: 19pt;
   line-height: 1.5;
@@ -200,9 +198,8 @@ body {
 
 .puppy-button a {
   color: white;
-  font-size: 13pt;
+  font-size: 13px;
   letter-spacing: 1.5px;
-  font-weight: 550;
   text-decoration: none;
   padding: 17px 35px;
   border-radius: 3px;
@@ -215,8 +212,9 @@ body {
 
 h3 {
   color: #d7ae18;
-  font-size: 15pt;
+  font-size: 20px;
   letter-spacing: 4px;
+  font-weight: 600;
 }
 
 /* DEAN ========================================== */
@@ -404,6 +402,7 @@ article {
   font-size: 25px;
   max-width: 450px;
   margin: auto;
+  font-family: "freight-text-pro", serif;
 }
 
 .news__btn {
@@ -452,6 +451,9 @@ article {
 }
 
 @media screen and (max-width: 992px) {
+  .fox-image {
+    background-position: center;
+  }
   .text-box1 {
     padding: 100px 0;
   }
@@ -577,7 +579,7 @@ article {
 
   .text-box-kitty {
     margin: 7% 3% 0 3%;
-    font-size: 17pt;
+    font-size: 22px;
     line-height: 1.2;
   }
 
@@ -587,7 +589,7 @@ article {
 
   .text-box-puppy {
     margin: 0 3%;
-    font-size: 17pt;
+    font-size: 22px;
     line-height: 1.2;
   }
 
