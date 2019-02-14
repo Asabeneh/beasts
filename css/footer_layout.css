@@ -1,0 +1,197 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:before,*:after { box-sizing: inherit; }
+
+*:link { text-decoration: none;}
+
+li { list-style:none; }
+
+img, i { vertical-align: middle; }
+
+:root {  
+    /*--arrow-blue: #009ed0;*/
+    --light-blue: #243e86;
+    --dark-blue: rgba(20,43,79,1);
+    --freight-font: "freight-sans-pro", sans-serif;
+    --blue-text: #243e86;
+    --blue-text-hover: rgba(0,160, 203,1 );
+    --light-gray
+    : rgba(238,238,238); 
+}
+
+html,body { 
+    height: 100vh;
+    width: 100vw;
+    font-size: 62.5%;
+    /*background: black;*/
+}
+
+
+footer, footer.grid { 
+    /*border: .07em dashed purple;*/
+    display: grid;
+    grid-template-columns: 10% repeat(1, 80%) 10%;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas:
+        ". footer-top ."
+        ". footer-btm ."
+    ;
+}
+/* footer has top */
+section.footer-top {
+    /*border: .07rem dashed blue;*/ 
+    padding: 0.000001%;
+    grid-area: footer-top;
+    background: var(--light-gray);
+}
+
+/* footer top&btm has bottom */
+section.footer-btm { 
+    /*border: .07rem dashed blue;*/ 
+    padding: 0.000001%;
+    grid-area: footer-btm;
+    background: white;
+
+}
+
+/* footer-top&btm is a grid with 2 columns */  
+section.footer-top, section.footer-btm { 
+    display: grid;
+    grid-template-columns: 40% 3% 57%;
+    grid-template-rows: auto ;
+    grid-auto-flow: row;
+    grid-template-areas: 
+    "ft-left . ft-right"
+    "ft-left . ft-right "
+    ;
+}
+
+section.ft-left { 
+    /*border: .07em dashed red;*/
+    grid-area: ft-left;
+
+    padding: 0rem 2rem;
+}
+
+section.ft-right { 
+    grid-area: ft-right;
+ 
+}
+
+/* stack containers if screenWidth=-600px */
+@media only screen and (max-width:600px) { 
+  
+    section.footer-top, section.footer-btm { 
+
+        display: grid;
+        grid-template-columns:auto;
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: 
+        "ft-left"
+        "ft-right";
+        transition: all .5s ease-in-out;  
+    } 
+    section.footer-btm { 
+        margin: 5% 0%;
+    }
+    section.end-box { 
+        font-size: 1.5em;
+    }
+    section.ft-left { 
+        grid-area:ft-left;
+       
+        /*padding: 0rem 2rem;*/
+        display: flex;
+        justify-content: center;
+    }
+    
+    section.ft-left { 
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section.ft-right { 
+        padding: 0.001%;
+        grid-area:ft-right;
+        display: flex;
+        text-align:center;
+        justify-content: center;
+    }
+    section.ft-right > section.grid-box> nav.item li   ,
+    section.ft-right > section.grid-box> nav.item h2   ,
+    section.ft-right > section.grid-box> nav.item li a { 
+        padding: 0.1%;
+        margin: 0 auto;
+        text-align:center;
+        /*background: black;*/
+    }
+}
+
+@media only screen and (max-width:400px) { 
+    section.ft-left { 
+        display: flex;
+        flex-direction: column;
+    }
+    section.ft-right {
+        padding: 0.001%; 
+        margin: 0%;
+    }
+    section.grid-box { 
+        /*background: red;*/
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    section.ft-right > section.grid-box> nav.item li   ,
+    section.ft-right > section.grid-box> nav.item h2   ,
+    section.ft-right > section.grid-box> nav.item li a { 
+        padding: 0.1%;
+        margin: 0 auto;
+        text-align:center;
+        /*background: black;*/
+    }
+    nav.item { 
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        text-align:center;
+        padding: 0.01%;
+    }
+       
+}
+
+@media only screen and (max-width:390px) { 
+    section.grid-box { 
+        /*background: red;*/
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items:center;
+    }
+    nav.item {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        text-align:center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: center;
+        align-items:center; 
+        transition: all 0.5s ease-in-out;
+    }
+    section.ft-right > section.grid-box> nav.item li   ,
+    section.ft-right > section.grid-box> nav.item h2   ,
+    section.ft-right > section.grid-box> nav.item li a { 
+        padding: 0.1%;
+        margin: 0 auto;
+        text-align:center;
+        /*background: black;*/
+    }
+       
+}
+
+
