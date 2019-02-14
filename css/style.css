@@ -9,11 +9,15 @@
 body {
   font-size: 18px;
 }
-
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
 html,
 body {
   width: 100%;
   height: 100%;
+  font-family: 'Noto Sans JP', sans-serif;
+
 }
 
 .container {
@@ -73,19 +77,17 @@ header {
   font-size: 30px;
 }
 
-.toggle:hover{
-  background-color:#243e86;
+.toggle:hover {
+  background-color: #243e86;
 }
 
-
 .toggle ul li:hover {
-  color:white;
+  color: white;
   background: #ffcd03;
 }
 
 .toggle label {
   display: none;
- 
 }
 .toggle ul li {
   display: inline-block;
@@ -350,6 +352,10 @@ header {
   background-position: top;
   background-size: cover;
   position: relative;
+
+  /* add margin */
+
+  margin-top: 5%;
 }
 
 .fox-image:after {
@@ -814,7 +820,6 @@ article {
   .container {
     margin: 0 5%;
   }
-
 }
 
 @media screen and (max-width: 1050px) {
@@ -846,7 +851,6 @@ article {
     padding-left: 0;
     padding-right: 0;
   }
-
 }
 
 @media screen and (max-width: 992px) {
@@ -986,9 +990,9 @@ article {
     height: 30px;
   }
 
-  .change{
+  .change {
     flex: 40%;
-  } 
+  }
 
   .change:nth-child(2) {
     margin-right: 0;
