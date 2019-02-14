@@ -106,7 +106,6 @@ body {
 .text-box2-link {
   color: #243e86;
   text-decoration: none;
-  background-color: #dfc5de;
   font-size: 14pt;
 }
 
@@ -475,7 +474,6 @@ article {
   .container {
     margin: 0 5%;
   }
-
 }
 
 @media screen and (max-width: 1050px) {
@@ -495,7 +493,6 @@ article {
     padding-left: 0;
     padding-right: 0;
   }
-
 }
 
 @media screen and (max-width: 992px) {
@@ -619,9 +616,9 @@ article {
     height: 30px;
   }
 
-  .change{
+  .change {
     flex: 40%;
-  } 
+  }
 
   .change:nth-child(2) {
     margin-right: 0;
@@ -744,5 +741,4 @@ article {
   .change__body .change__item3 {
     height: 20px;
   }
-
 }
