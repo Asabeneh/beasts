@@ -6,6 +6,21 @@
   box-sizing: border-box;
 }
 
+body {
+  font-size: 18px;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
 @font-face {
   font-family: "FontAwesome";
   src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0");
@@ -24,11 +39,7 @@
 }
 
 /* ===HEADER=== */
-html,
-body {
-  width: 100%;
-  height: 100%;
-}
+
 header {
   background: url(/assets/images/dog.jpeg);
   background-size: cover;
@@ -115,7 +126,6 @@ header {
   transform: translate(-50%);
   right: 0;
   display: inline-block;
-  float: right;
 }
 .search-box input {
   border: none;
@@ -329,27 +339,6 @@ header {
   justify-content: space-between;
   margin-right: auto;
 }
-/* ===MAIN=== */
-
-/* ===FOOTER=== */
-
-/* ===GENERAL=== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-size: 18px;
-}
-
-.container {
-  max-width: 1100px;
-  margin: auto;
-}
-
-/* ===HEADER=== */
 
 /* ===MAIN=== */
 
@@ -808,6 +797,17 @@ article {
 /* ===FOOTER=== */
 
 /* MEDIA QUERY ======================== */
+
+@media screen and (max-width: 1400px) {
+  .bottom-title {
+    font-size: 70px;
+  }
+
+  .header-title {
+    margin-bottom: 70px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .how-you-can-help {
     margin: 5%;
@@ -819,6 +819,18 @@ article {
 }
 
 @media screen and (max-width: 1050px) {
+  .bottom-title {
+    font-size: 60px;
+  }
+
+  .header-title {
+    margin-bottom: 60px;
+  }
+
+  .video-container {
+    height: 200px;
+  }
+
   .text-box1 {
     padding: 150px 0;
   }
@@ -908,6 +920,25 @@ article {
 }
 
 @media screen and (max-width: 768px) {
+
+  .toggle label {
+    display: block;
+  }
+  .toggle ul {
+    display: none;
+  }
+  .toggle:hover ul {
+    display: block;
+  }
+
+  .toggle {
+    font-size: 55px;
+  }
+
+  .toggle ul li {
+    font-size: 20px;
+  }
+
   .text-box1 {
     padding: 50px 0;
   }
@@ -1075,6 +1106,7 @@ article {
   .change__body .change__item3 {
     height: 20px;
   }
+<<<<<<< HEAD
 }
 
 /* MEDIA QUERY */
@@ -1124,3 +1156,6 @@ article {
     font-size: 20px;
   }
 }
+=======
+}
+>>>>>>> cc1b53f0d4ca31d6e1fd9ddc3b2f8264b48e5d3b
