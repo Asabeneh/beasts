@@ -637,6 +637,11 @@ article {
   .change__body .change__item3 {
     height: 20px;
   }
+
+  .change__special {
+    max-width: 350px;
+    min-width: 200px;
+  }
 }
 
 @media screen and (max-width: 600px) {
