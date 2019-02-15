@@ -2,6 +2,8 @@
 
 ## Demo
 
+[view](https://asabeneh.github.io/beasts/)
+
 ## Authors
 
 - Dean
