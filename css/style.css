@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* ===GENERAL=== */
 * { 
     vertical-align: baseline; /* for Images */ 
@@ -65,19 +64,16 @@ header {
 .toggle {
   width: 50%;
   padding: 10px 20px;
-=======
 /* ===GENERAL=== */ 
 /* EVANS RETURNING */
 * {
   margin: 0;
   padding: 0;
->>>>>>> johanna
   box-sizing: border-box;
   color: #fff;
   font-size: 30px;
 }
 
-<<<<<<< HEAD
 .toggle:hover {
   background-color: #243e86;
 }
@@ -85,10 +81,8 @@ header {
 .toggle ul li:hover {
   color: white;
   background: #ffcd03;
-=======
 body {
   font-size: 18px;
->>>>>>> johanna
 }
 
 .toggle label {
@@ -252,7 +246,6 @@ body {
   width: 86%;
   margin: auto;
 }
-<<<<<<< HEAD
 .video-responsive iframe{
   left: 0;
   top: 0;
@@ -346,9 +339,7 @@ body {
   justify-content: space-between;
   margin-right: auto;
 }
-=======
 /* ===HEADER=== */
->>>>>>> johanna
 
 /* ===MAIN=== */
 
@@ -387,7 +378,6 @@ body {
   flex-direction: column;
   text-align: center;
   justify-content: center;
-<<<<<<< HEAD
   text-align: center;
   /*align-items: center;*/
   margin-left: 6%;
@@ -396,9 +386,7 @@ body {
 
 .text-box1 p {
   align-self: center;
-=======
   width: 100%;
->>>>>>> johanna
 }
 
 .text-box1-link {
@@ -756,10 +744,7 @@ article {
   line-height: 24px;
   max-width: 450px;
   margin: auto;
-<<<<<<< HEAD
   width: 100%;
-=======
->>>>>>> johanna
 }
 
 .news__btn {
@@ -800,7 +785,6 @@ article {
   .how-you-can-help {
     margin: 5%;
   }
-<<<<<<< HEAD
 
   .container {
     margin: 0 5%;
@@ -809,8 +793,6 @@ article {
   .change__body .change__body__content {
     height: 120px;
   }
-=======
->>>>>>> johanna
 }
 @media screen and (max-width: 1050px) {
   .bottom-title {
@@ -840,13 +822,10 @@ article {
     padding-left: 0;
     padding-right: 0;
   }
-<<<<<<< HEAD
 
   .change__body .change__body__content {
     height: 140px;
   }
-=======
->>>>>>> johanna
 }
 
 @media screen and (max-width: 992px) {
@@ -861,22 +840,18 @@ article {
     margin-top: 0;
   }
   .news__information {
-<<<<<<< HEAD
     margin-right: -40px;
   }
 
   .news__body {
     font-size: 23px;
     width: 70%;
-=======
     margin-right: 5%;
->>>>>>> johanna
   }
   .puppy {
     background-position: center;
     background-size: cover;
   }
-<<<<<<< HEAD
 
   .change .change__top img {
     max-width: 100%;
@@ -885,8 +860,6 @@ article {
   .change__body .change__body__content {
     height: 160px;
   }
-=======
->>>>>>> johanna
 }
 
 @media screen and (max-width: 800px) {
@@ -914,13 +887,10 @@ article {
   .text-wrapper {
     padding: 100px 20px;
   }
-<<<<<<< HEAD
 
   .change__body .change__body__content {
     height: 180px;
   }
-=======
->>>>>>> johanna
 }
 
 @media screen and (max-width: 768px) {
@@ -1007,119 +977,6 @@ header {
   justify-content: space-between;
 }
 
-<<<<<<< HEAD
-.header-container {
-  width: 90%;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-between;
-  flex: 1;
-}
-.header-top {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.toggle {
-  width: 50%;
-  padding: 10px 20px;
-  box-sizing: border-box;
-  color: #fff;
-  font-size: 30px;
-}
-
-.toggle:hover{
-  background-color:#243e86;
-}
-
-
-.toggle ul li:hover {
-  color:white;
-  background: #ffcd03;
-}
-
-.toggle label {
-  display: none;
- 
-}
-.toggle ul li {
-  display: inline-block;
-
-  color: white;
-  padding: 20px;
-}
-.toggle ul li a {
-  text-decoration: none;
-  color: white;
-}
-
-.btn {
-  position: relative;
-  display: inline-block;
-  width: 40%;
-  margin-top: 30px;
-}
-
-.float-right {
-  float: right;
-}
-
-.donate-btn {
-  display: inline-block;
-  margin-right: 100px;
-}
-
-.donate-link {
-  color: white;
-  background-color: red;
-  font-size: 28px;
-  padding: 10px 60px 10px 60px;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.search-container {
-  /* position: absolute; */
-  transform: translate(-50%);
-  right: 0;
-  display: inline-block;
-  float: right;
-}
-.search-box input {
-  border: none;
-  background: none;
-  z-index: 1;
-  width: 25px;
-  height: 25px;
-  transition: all 0.25s ease-in 0.25s;
-  color: transparent;
-  font-size: 1em;
-  line-height: 25px;
-}
-
-.search-box input:hover {
-  cursor: pointer;
-}
-
-.search-box input:hover:focus {
-  cursor: text;
-}
-
-.search-box input:hover + span {
-  background: rgba(255, 255, 255, 2);
-}
-
-.search-box input:focus {
-  width: 200px;
-  padding: 0 10px;
-  outline: none;
-  color: black;
-  background: none;
-  color: red;
-}
-=======
   .text-wrapper {
     width: 100%;
   }
@@ -1141,7 +998,6 @@ header {
   .happy-dog {
     width: 100%;
   }
->>>>>>> johanna
 
 .search-box input:focus + span {
   width: 200px;
@@ -1177,7 +1033,6 @@ header {
   transform: rotate(45deg) translate(26px, -2px);
 }
 
-<<<<<<< HEAD
 .bottom-container {
   flex: 1;
   display: flex;
@@ -1185,13 +1040,11 @@ header {
   justify-content: flex-end;
   width: 100%;
 }
-=======
   .text-box-kitty {
     margin: 7% 3% 0 3%;
     font-size: 17pt;
     line-height: 1.2;
   }
->>>>>>> johanna
 
 .header-title {
   width: 100%;
@@ -1200,7 +1053,6 @@ header {
   justify-content: center;
 }
 
-<<<<<<< HEAD
 .bottom-title {
   font-size: 90px;
   color: white;
@@ -1260,13 +1112,11 @@ header {
 .bg-bottom :hover {
   color: #ffcd03;
 }
-=======
   .text-box-puppy {
     margin: 0 3%;
     font-size: 17pt;
     line-height: 1.2;
   }
->>>>>>> johanna
 
 .bg-bottom::after {
   content: " ";
@@ -1352,7 +1202,6 @@ header {
     margin-bottom: 70px;
   }
 }
-<<<<<<< HEAD
 
 @media screen and (max-width: 1050px) {
   .bottom-title {
@@ -1396,5 +1245,3 @@ header {
 
 
 /* For evans's header */
-=======
->>>>>>> johanna
