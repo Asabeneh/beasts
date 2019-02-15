@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ===GENERAL=== */
 * { 
     vertical-align: baseline; /* for Images */ 
@@ -64,11 +65,19 @@ header {
 .toggle {
   width: 50%;
   padding: 10px 20px;
+=======
+/* ===GENERAL=== */ 
+/* EVANS RETURNING */
+* {
+  margin: 0;
+  padding: 0;
+>>>>>>> johanna
   box-sizing: border-box;
   color: #fff;
   font-size: 30px;
 }
 
+<<<<<<< HEAD
 .toggle:hover {
   background-color: #243e86;
 }
@@ -76,6 +85,10 @@ header {
 .toggle ul li:hover {
   color: white;
   background: #ffcd03;
+=======
+body {
+  font-size: 18px;
+>>>>>>> johanna
 }
 
 .toggle label {
@@ -239,6 +252,7 @@ header {
   width: 86%;
   margin: auto;
 }
+<<<<<<< HEAD
 .video-responsive iframe{
   left: 0;
   top: 0;
@@ -332,6 +346,9 @@ header {
   justify-content: space-between;
   margin-right: auto;
 }
+=======
+/* ===HEADER=== */
+>>>>>>> johanna
 
 /* ===MAIN=== */
 
@@ -361,7 +378,7 @@ header {
   font-style: normal;
   font-weight: 500;
   font-size: 24pt;
-  margin-bottom: 1rem;
+  line-height: 1.6;
   color: white;
   padding: 300px 0;
   z-index: 1;
@@ -370,6 +387,7 @@ header {
   flex-direction: column;
   text-align: center;
   justify-content: center;
+<<<<<<< HEAD
   text-align: center;
   /*align-items: center;*/
   margin-left: 6%;
@@ -378,6 +396,9 @@ header {
 
 .text-box1 p {
   align-self: center;
+=======
+  width: 100%;
+>>>>>>> johanna
 }
 
 .text-box1-link {
@@ -389,8 +410,6 @@ header {
 
 .text-box1-link:hover {
   color: #009ed0;
-  font-family: "freight-sans-pro", sans-serif;
-  font-size: 14pt;
 }
 
 .text-box1-link .fa-arrow-right {
@@ -415,6 +434,7 @@ header {
 .text-box2 {
   width: 30%;
   font-size: 20pt;
+  color: #283941;
   line-height: 1.2;
   font-family: "freight-sans-pro", sans-serif;
   align-self: center;
@@ -434,11 +454,9 @@ header {
 .text-box2-link .fa-arrow-right {
   color: #009ed0;
 }
-
 .box2-link {
   margin: 4% 0;
 }
-
 .kitty-and-puppy {
   display: flex;
   flex-wrap: wrap;
@@ -566,15 +584,15 @@ hr {
 
 .changes {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .change {
-  flex: 28%;
-  width: 210px;
+  flex: 29%;
+  max-width: 339px;
   border: 1px solid lightgrey;
-  margin-right: 5vw;
+  margin-right: 6.5%;
 }
 
 .change:last-child {
@@ -585,24 +603,16 @@ hr {
   border-bottom: 2px solid #009ed0;
 }
 
-.change:hover #change__btn .fa-arrow-right {
+.change:hover .fa-arrow-right {
   color: #009ed0;
 }
 
-.change .change__top,
-.change .change__body,
-.change .change__body__content,
-.change .change__body .change__bottom {
-  width: 100%;
-  height: auto;
-  border: none;
-}
-
 .change .change__top img {
-  width: 100%;
+  max-width: 100%;
+  min-height: 250px;
 }
 
-.change .change__body .change__body__content a {
+.change__body a {
   text-decoration: none;
   color: black;
   line-height: 23px;
@@ -611,38 +621,20 @@ hr {
 .change .change__body {
   margin: 10px 0;
   padding: 0 15px;
+  min-height: 90px;
   text-align: center;
   font-weight: 500;
   line-height: 22px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.change__body .change__body__content {
-  margin: 0;
-  flex: 1;
-  height: 100px;
 }
 
 .change .change__bottom {
   color: #243e86;
-  margin-top: 15px;
-  display: flex;
-  justify-content: space-between;
-  text-align: left;
+  padding: 0 15px;
 }
 
-#change__btn {
-  flex: 1;
-  border: none;
-  margin-top: 20px;
-}
-
-#change__btn .fa-arrow-right {
+.change .fa-arrow-right {
   float: right;
   color: lightgrey;
-  font-size: 20px;
   margin-right: 10px;
   margin-bottom: 10px;
 }
@@ -729,14 +721,13 @@ article {
   background-size: cover;
   display: inline-block;
   max-width: 30rem;
-  min-width: 24rem;
+  min-width: 12rem;
+  min-height: 12rem;
   position: absolute;
   left: 0;
   top: 0;
-  right: 0;
-  bottom: 0;
   padding-top: 8.9%;
-  width: 35%;
+  width: 40%;
 }
 
 /* .news__container::after {
@@ -765,7 +756,10 @@ article {
   line-height: 24px;
   max-width: 450px;
   margin: auto;
+<<<<<<< HEAD
   width: 100%;
+=======
+>>>>>>> johanna
 }
 
 .news__btn {
@@ -806,6 +800,7 @@ article {
   .how-you-can-help {
     margin: 5%;
   }
+<<<<<<< HEAD
 
   .container {
     margin: 0 5%;
@@ -814,8 +809,9 @@ article {
   .change__body .change__body__content {
     height: 120px;
   }
+=======
+>>>>>>> johanna
 }
-
 @media screen and (max-width: 1050px) {
   .bottom-title {
     font-size: 60px;
@@ -832,23 +828,25 @@ article {
   .text-box1 {
     padding: 150px 0;
   }
-
   .text-box1 p {
     margin: 0 5%;
   }
 
   .news__information {
-    margin-right: 5%;
+    margin-right: 7%;
   }
 
   .text-wrapper {
     padding-left: 0;
     padding-right: 0;
   }
+<<<<<<< HEAD
 
   .change__body .change__body__content {
     height: 140px;
   }
+=======
+>>>>>>> johanna
 }
 
 @media screen and (max-width: 992px) {
@@ -859,24 +857,26 @@ article {
   .text-box-kitty {
     margin-top: 0;
   }
-
   .text-box-puppy {
     margin-top: 0;
   }
-
   .news__information {
+<<<<<<< HEAD
     margin-right: -40px;
   }
 
   .news__body {
     font-size: 23px;
     width: 70%;
+=======
+    margin-right: 5%;
+>>>>>>> johanna
   }
-
   .puppy {
     background-position: center;
     background-size: cover;
   }
+<<<<<<< HEAD
 
   .change .change__top img {
     max-width: 100%;
@@ -885,27 +885,26 @@ article {
   .change__body .change__body__content {
     height: 160px;
   }
+=======
+>>>>>>> johanna
 }
 
 @media screen and (max-width: 800px) {
   .how-you-can-help {
     margin-top: 3%;
   }
-
   .text-box1 {
     padding: 80px 0;
   }
-
   .how-you-can-help {
     margin: 45px;
   }
-
   .text-box2 {
     margin: 0 3%;
   }
 
   .news__information {
-    margin-right: -50px;
+    margin-right: 2%;
   }
 
   .gift:after {
@@ -915,10 +914,13 @@ article {
   .text-wrapper {
     padding: 100px 20px;
   }
+<<<<<<< HEAD
 
   .change__body .change__body__content {
     height: 180px;
   }
+=======
+>>>>>>> johanna
 }
 
 @media screen and (max-width: 768px) {
@@ -1005,6 +1007,7 @@ header {
   justify-content: space-between;
 }
 
+<<<<<<< HEAD
 .header-container {
   width: 90%;
   margin: auto;
@@ -1116,6 +1119,29 @@ header {
   background: none;
   color: red;
 }
+=======
+  .text-wrapper {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .how-you-can-help {
+    flex-wrap: wrap;
+  }
+  .happy-dog {
+    width: 100%;
+  }
+  .text-box2 {
+    width: 100%;
+    margin: 2% 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .happy-dog {
+    width: 100%;
+  }
+>>>>>>> johanna
 
 .search-box input:focus + span {
   width: 200px;
@@ -1151,6 +1177,7 @@ header {
   transform: rotate(45deg) translate(26px, -2px);
 }
 
+<<<<<<< HEAD
 .bottom-container {
   flex: 1;
   display: flex;
@@ -1158,6 +1185,13 @@ header {
   justify-content: flex-end;
   width: 100%;
 }
+=======
+  .text-box-kitty {
+    margin: 7% 3% 0 3%;
+    font-size: 17pt;
+    line-height: 1.2;
+  }
+>>>>>>> johanna
 
 .header-title {
   width: 100%;
@@ -1166,6 +1200,7 @@ header {
   justify-content: center;
 }
 
+<<<<<<< HEAD
 .bottom-title {
   font-size: 90px;
   color: white;
@@ -1225,6 +1260,13 @@ header {
 .bg-bottom :hover {
   color: #ffcd03;
 }
+=======
+  .text-box-puppy {
+    margin: 0 3%;
+    font-size: 17pt;
+    line-height: 1.2;
+  }
+>>>>>>> johanna
 
 .bg-bottom::after {
   content: " ";
@@ -1310,6 +1352,7 @@ header {
     margin-bottom: 70px;
   }
 }
+<<<<<<< HEAD
 
 @media screen and (max-width: 1050px) {
   .bottom-title {
@@ -1353,3 +1396,5 @@ header {
 
 
 /* For evans's header */
+=======
+>>>>>>> johanna
