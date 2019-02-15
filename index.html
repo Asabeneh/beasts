@@ -15,6 +15,7 @@
 
 <body>
   <header>
+    <!-- HEADER =================================== -->
     <div class="header-container">
       <div class="header-top">
         <div class="toggle">
@@ -40,13 +41,43 @@
               <a href="#" class="donate-link">Donate</a>
             </div>
 
-            <div class="search-container">
-              <div class="search-box">
-                <input type="text" />
-                <span></span>
-              </div>
-            </div>
-          </div>
+            <div class="modal-container">
+              <input id="modal-toggle" type="checkbox">
+              <button><i class="fas fa-search"></i></button>
+
+
+              <!-- MODAL ==================================== -->
+              <div class="modal-backdrop">
+                <div class="modal-content">
+                  <div class="modal-header">
+
+                    <div class="modal-title-h4">
+                      <h4 class="modal-title" id="myModalLabel">Search Humanesociety.org</h4>
+                    </div>
+                    <div class="close">
+                      <label class="modal-close" for="modal-toggle"><i class="fas fa-times"></i></label>
+                    </div>
+                  </div><!-- modal-header -->
+
+                  <div class="modal-body">
+                    <form class="form-inline" role="form">
+                      <div class="form-group">
+                        <label class="sr-only looking" for="subscribe-name"></label>
+                        <input type="text" class="form-control" id="subscribe-name" placeholder="What are you looking for?" />
+                      </div><!-- form-group -->
+
+                      <div class="search-btn">
+                        <input type="submit" class="btn btn-danger" value="Search" />
+                      </div>
+
+                    </form>
+                  </div><!-- modal-body -->
+
+                </div><!-- modal-content -->
+              </div><!-- modal-backdrop -->
+            </div><!-- modal-container -->
+
+          </div><!-- float-right -->
         </div>
       </div>
     </div>
@@ -100,6 +131,8 @@
     </p>
     <div class="background-box"></div>
   </div>
+
+  <!-- VIDEO ====================================== -->
 
   <div class="video-responsive">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/SAa5hRb5ofM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
